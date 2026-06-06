@@ -1828,3 +1828,56 @@ PADRONIZAR BADGES DOS CARDS
 body.dark .category-badge{
     color:rgb(255, 255, 255) !important;
 }
+/* =========================================
+CORREÇÃO HEADER RESPONSIVO
+========================================= */
+
+@media(max-width:900px){
+
+    header{
+        position:relative;
+    }
+
+    .header-container{
+        flex-direction:column;
+        gap:15px;
+        width:96%;
+    }
+
+    .logo img{
+        height:58px;
+    }
+
+    .nav-menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        gap:8px;
+        padding:0;
+    }
+
+    .nav-btn{
+        display:inline-block;
+        width:auto;
+        padding:9px 12px;
+        font-size:.78rem;
+        white-space:nowrap;
+    }
+}
+
+@media(max-width:480px){
+
+    .nav-menu{
+        gap:6px;
+    }
+
+    .nav-btn{
+        padding:8px 10px;
+        font-size:.72rem;
+    }
+
+    .logo img{
+        height:50px;
+    }
+}
