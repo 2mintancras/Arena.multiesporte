@@ -1077,38 +1077,35 @@ RESPONSIVO
 TABLET
 ========================================= */
 
+/* =========================================
+TABLET
+========================================= */
+
 @media(max-width:850px){
 
     .header-container{
-
         flex-direction:column;
-
-        gap:20px;
+        gap:16px;
     }
 
     .nav-menu{
-
         justify-content:center;
+        gap:10px;
+    }
+
+    .nav-btn{
+        width:auto;
+        padding:10px 14px;
+        font-size:.85rem;
+        text-align:center;
     }
 
     .hero{
-
-        min-height:450px;
+        min-height:420px;
     }
 
     .hero h2{
-
-        font-size:2.7rem;
-    }
-
-    .nav-btn.surf,
-    .nav-btn.tenis,
-    .nav-btn.mesa,
-    .nav-btn.xadrez{
-
-        width:100%;
-
-        text-align:center;
+        font-size:2.5rem;
     }
 }
 
@@ -1118,64 +1115,41 @@ MOBILE
 
 @media(max-width:600px){
 
-    .hero{
-
-        min-height:400px;
-
-        padding:20px;
+    .header-container{
+        width:96%;
     }
 
-    .hero h2{
-
-        font-size:2rem;
+    .nav-menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:8px;
     }
 
-    .hero p{
+    .nav-btn{
+        width:auto;
+        padding:9px 12px;
+        font-size:.78rem;
+    }
 
-        font-size:1rem;
+    .logo img{
+        height:60px;
     }
 
     .posts-grid{
-
         grid-template-columns:1fr;
     }
 
     .card-image{
-
-        height:210px;
+        height:190px;
     }
 
-    .logo img{
-
-        height:65px;
+    .hero h2{
+        font-size:2rem;
     }
 
-    .nav-btn{
-
-        padding:10px 16px;
-
-        font-size:.9rem;
-    }
-
-    .highlight-card{
-
-        padding:25px;
-    }
-
-    .surf-hero,
-    .tenis-hero,
-    .mesa-hero,
-    .xadrez-hero{
-
-        min-height:420px;
-    }
-
-    .surf-hero h2,
-    .tenis-hero h2,
-    .mesa-hero h2,
-    .-hero h2{
-
-        font-size:2.2rem;
+    .hero p{
+        font-size:.95rem;
     }
 }
 
