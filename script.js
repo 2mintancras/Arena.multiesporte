@@ -69,7 +69,7 @@ function criarDarkMode() {
 
     botao.style.right = "20px";
 
-    botao.style.top = "90px";
+    botao.style.bottom = "90px";
 
     botao.style.zIndex = "9999";
 

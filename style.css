@@ -11,6 +11,7 @@ RESET
     margin:0;
     padding:0;
     box-sizing:border-box;
+    transition: all 0.5s ease;
 }
 
 /* =========================================
@@ -52,7 +53,6 @@ VARIÁVEIS
 
     --xadrez:#6d09df;
 
-    --inicio:#ffd501;
 }
 
 /* =========================================
@@ -157,7 +157,7 @@ LOGO
 
     width:auto;
 
-    height:90px;
+    height:100px;
 
     object-fit:contain;
 
@@ -264,14 +264,9 @@ INÍCIO FIXO VERDE
 
 .nav-menu li:first-child .nav-btn{
 
-    background:var(--inicio);
-
-    color:#0f172a;
-}
-
-.nav-menu li:first-child .nav-btn:hover{
-
-    background:var(--inicio);
+    background:rgba(0, 38, 255, 0.175);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color:#ffffff;
 }
 
 /* FUTEBOL */
@@ -332,6 +327,14 @@ INÍCIO FIXO VERDE
     background:var(--xadrez);
 
     color:#ffffff;
+}
+
+/* =========================================
+HOVER DO BOTÃO INÍCIO
+========================================= */
+
+.nav-menu li:first-child .nav-btn:hover {
+    background: #ffcc00;
 }
 
 /* =========================================
