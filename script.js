@@ -75,7 +75,7 @@ function criarDarkMode() {
 
     botao.style.width = "55px";
 
-    botao.style.height = "55px";
+    botao.style.height = "15px";
 
     botao.style.border = "none";
 
